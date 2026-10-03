@@ -1,79 +1,13 @@
 let products = [
-    {
-        id: "P001",
-        name: "Dell Inspiron 15",
-        category: "Laptops",
-        quantity: 25,
-        price: 749,
-        supplier: "Dell Inc.",
-        status: "In Stock"
-    },
-    {
-        id: "P002",
-        name: "Logitech Mouse",
-        category: "Accessories",
-        quantity: 6,
-        price: 25,
-        supplier: "Logitech",
-        status: "Low Stock"
-    },
-    {
-        id: "P003",
-        name: "Office Chair",
-        category: "Furniture",
-        quantity: 0,
-        price: 120,
-        supplier: "FurniCo",
-        status: "Out of Stock"
-    },
-    {
-        id: "P004",
-        name: "Samsung Monitor",
-        category: "Monitors",
-        quantity: 18,
-        price: 199,
-        supplier: "Samsung",
-        status: "In Stock"
-    },
-    {
-        id: "P005",
-        name: "Mechanical Keyboard",
-        category: "Accessories",
-        quantity: 10,
-        price: 85,
-        supplier: "KeyTech",
-        status: "Low Stock"
-    },
-    {
-        id: "P006",
-        name: "HP LaserJet Printer",
-        category: "Printers",
-        quantity: 7,
-        price: 299,
-        supplier: "HP",
-        status: "Low Stock"
-    },
-    {
-        id: "P007",
-        name: "Wooden Desk",
-        category: "Furniture",
-        quantity: 15,
-        price: 150,
-        supplier: "FurniCo",
-        status: "In Stock"
-    },
-    {
-        id: "P008",
-        name: "Sony Headphones",
-        category: "Accessories",
-        quantity: 3,
-        price: 99,
-        supplier: "Sony",
-        status: "Low Stock"
-    }
+    { id: "P001", name: "Dell Inspiron 15", category: "Laptops", quantity: 25, price: 749, supplier: "Dell Inc.", status: "In Stock" },
+    { id: "P002", name: "Logitech Mouse", category: "Accessories", quantity: 6, price: 25, supplier: "Logitech", status: "Low Stock" },
+    { id: "P003", name: "Office Chair", category: "Furniture", quantity: 0, price: 120, supplier: "FurniCo", status: "Out of Stock" },
+    { id: "P004", name: "Samsung Monitor", category: "Monitors", quantity: 18, price: 199, supplier: "Samsung", status: "In Stock" },
+    { id: "P005", name: "Mechanical Keyboard", category: "Accessories", quantity: 10, price: 85, supplier: "KeyTech", status: "Low Stock" },
+    { id: "P006", name: "HP LaserJet Printer", category: "Printers", quantity: 7, price: 299, supplier: "HP", status: "Low Stock" },
+    { id: "P007", name: "Wooden Desk", category: "Furniture", quantity: 15, price: 150, supplier: "FurniCo", status: "In Stock" },
+    { id: "P008", name: "Sony Headphones", category: "Accessories", quantity: 3, price: 99, supplier: "Sony", status: "Low Stock" }
 ];
-
-
 const productTable = document.getElementById("productTable");
 
 const productSearch = document.getElementById("productSearch");
